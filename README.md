@@ -9,7 +9,7 @@ The Point package is a simple Java implementation demonstrating fundamental Obje
 - Abstraction
 
 ## Classes Overview
-1. Point2D
+### Point2D
 Represents a point in a 2-dimensional space.
 **Fields**:
 x (private, int): The x-coordinate.
@@ -25,7 +25,7 @@ void setX(double x): Sets the x-coordinate.
 void setY(double y): Sets the y-coordinate.
 String toString(): Returns the string representation of the point.
 
-2. Point3D (extends Point2D)
+### Point3D (extends Point2D)
 Represents a point in a 3-dimensional space by extending Point2D.
 Additional Field:
 z (private, int): The z-coordinate.
@@ -38,7 +38,7 @@ void setZ(double z): Sets the z-coordinate.
 double distance(Point3D other): Calculates the distance to another Point3D.
 Overrides toString() to include the z-coordinate.
 
-3. Line
+### Line
 Represents a line defined by two points (aggregation).
 **Fields**:
 endPont1 (private, Point2D): The starting point of the line.
