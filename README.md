@@ -8,6 +8,24 @@ The Point package is a simple Java implementation demonstrating fundamental Obje
 - Encapsulation
 - Abstraction
 
+## Usage
+1. Clone the repo:
+   ```shell
+   [~]$ git clone https://github.com/sakhileln/point.git
+   ```
+2. Change to parent directory:
+   ```shell
+   [~]$ cd point/
+   ```
+3. On the command line:
+   ```shell
+   # Compile the program
+   [~/point/]$ javac -d . exercise/TestPoint3D.java
+   # Run the program
+   [~/point/]$ java exercise.TestPoint3D
+   ```
+
+
 ## Classes Overview
 ### Point2D
 - Represents a point in a 2-dimensional space.
