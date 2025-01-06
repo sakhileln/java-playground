@@ -1,6 +1,6 @@
 package com.spring.learn_spring_framework.game;
 
-public class SuperContra {
+public class SuperContraGame {
     public void up() { System.out.println("Up"); }
     public void down() { System.out.println("Sit down"); }
     public void left() { System.out.println("Go back"); }
