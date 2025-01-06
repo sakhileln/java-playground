@@ -1,5 +1,6 @@
 package com.spring.learn_spring_framework;
 
+import com.spring.learn_spring_framework.game.GameRunner;
 import com.spring.learn_spring_framework.game.MarioGame;
 
 public class AppGamingBasic {
