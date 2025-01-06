@@ -11,5 +11,6 @@ public class GameRunner {
     public void run() {
         // Recommended to use logging framewrok
         System.out.println("Running game: " + game);
+        game.up(); game.down(); game.left(); game.right();
     }
 }
