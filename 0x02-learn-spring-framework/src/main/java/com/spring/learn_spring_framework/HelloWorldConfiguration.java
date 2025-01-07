@@ -23,6 +23,11 @@ public class HelloWorldConfiguration {
         return new Person("Ndlazi", 17, new Address("1 Google Drive", "Randburg"));
     }
 
+    @Bean
+    public Person person3(String name, int age, Address address2) {
+        return new Person(name, age, address2);
+    }
+
     @Bean(name = "address2")
     public Address address() {
         return new Address("1 HyperLoop Road", "Ares Haven");
