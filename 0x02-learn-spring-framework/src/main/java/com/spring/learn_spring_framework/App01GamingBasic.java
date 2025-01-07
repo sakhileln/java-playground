@@ -2,10 +2,8 @@ package com.spring.learn_spring_framework;
 
 import com.spring.learn_spring_framework.game.GameRunner;
 import com.spring.learn_spring_framework.game.PacmanGame;
-import com.spring.learn_spring_framework.game.SuperContraGame;
-import com.spring.learn_spring_framework.game.MarioGame;
 
-public class AppGamingBasic {
+public class App01GamingBasic {
     public static void main(String[] args) {
 
         // var game = new MarioGame();
