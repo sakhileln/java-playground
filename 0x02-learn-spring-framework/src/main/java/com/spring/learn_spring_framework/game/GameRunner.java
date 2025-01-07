@@ -3,9 +3,9 @@ package com.spring.learn_spring_framework.game;
 public class GameRunner {
     // Fields
     // MarioGame game;
-    SuperContraGame game;
+    GamingConsole game;
     // Constructor
-    public GameRunner(SuperContraGame contraGame) {
+    public GameRunner(GamingConsole contraGame) {
         this.game = contraGame;
     }
 
