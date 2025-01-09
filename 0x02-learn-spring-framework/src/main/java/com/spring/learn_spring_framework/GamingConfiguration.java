@@ -1,5 +1,6 @@
 package com.spring.learn_spring_framework;
 
+import com.spring.learn_spring_framework.game.GameRunner;
 import com.spring.learn_spring_framework.game.GamingConsole;
 import com.spring.learn_spring_framework.game.PacmanGame;
 import org.springframework.context.annotation.Bean;
@@ -11,5 +12,11 @@ public class GamingConfiguration {
     public GamingConsole game() {
         var game = new PacmanGame();
         return game;
+    }
+
+    @Bean
+    public GameRunner gameRunner(GamingConsole game) {
+        var gameRunner = new GameRunner(game);
+        return gameRunner;
     }
 }
