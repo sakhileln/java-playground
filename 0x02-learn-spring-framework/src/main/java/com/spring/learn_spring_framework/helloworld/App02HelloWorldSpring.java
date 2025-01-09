@@ -7,25 +7,24 @@ import java.util.Arrays;
 public class App02HelloWorldSpring {
     public static void main(String[] args) {
         // Launch spring context
-        var context = new AnnotationConfigApplicationContext(HelloWorldConfiguration.class);
+        try(var context = new AnnotationConfigApplicationContext(HelloWorldConfiguration.class)) {
+            // Configure things we want spring to manage.
+            // Done in HelloWordConfiguration
 
-        // Configure things we want spring to manage.
-        // Done in HelloWordConfiguration
+            // Retreive Beans managed by Spring
+            System.out.println(context.getBean("name"));
+            System.out.println(context.getBean("age"));
+            System.out.println(context.getBean("person"));
+            System.out.println(context.getBean("address1"));
+            System.out.println(context.getBean("person3"));
 
-        // Retreive Beans managed by Spring
-        System.out.println(context.getBean("name"));
-        System.out.println(context.getBean("age"));
-        System.out.println(context.getBean("person"));
-        System.out.println(context.getBean("address1"));
-        System.out.println(context.getBean("person3"));
+            System.out.println(context.getBean(Address.class));
+            System.out.println(context.getBean(Person.class));
 
-        System.out.println(context.getBean(Address.class));
-        System.out.println(context.getBean(Person.class));
+            System.out.println(context.getBean("person4Qualifier"));
 
-        System.out.println(context.getBean("person4Qualifier"));
-
-        // Print all beans
-        Arrays.stream(context.getBeanDefinitionNames()).forEach(System.out::println);
-
+            // Print all beans
+            Arrays.stream(context.getBeanDefinitionNames()).forEach(System.out::println);
+        }
     }
 }
