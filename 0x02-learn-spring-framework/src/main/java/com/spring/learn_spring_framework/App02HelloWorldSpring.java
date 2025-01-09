@@ -2,6 +2,8 @@ package com.spring.learn_spring_framework;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+import java.util.Arrays;
+
 public class App02HelloWorldSpring {
     public static void main(String[] args) {
         // Launch spring context
@@ -17,5 +19,9 @@ public class App02HelloWorldSpring {
         // System.out.println(context.getBean(Address.class));
         System.out.println(context.getBean("address1"));
         System.out.println(context.getBean("person3"));
+
+        // Print all beans
+        Arrays.stream(context.getBeanDefinitionNames()).forEach(System.out::println);
+
     }
 }
