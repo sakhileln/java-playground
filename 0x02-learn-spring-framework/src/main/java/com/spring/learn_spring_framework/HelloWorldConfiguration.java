@@ -2,6 +2,7 @@ package com.spring.learn_spring_framework;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
 
 record Person (String name, int age, Address address) { }
 record Address (String addressLine, String city) { }
@@ -14,6 +15,7 @@ public class HelloWorldConfiguration {
     public int age() { return 13; }
 
     @Bean
+    @Primary
     public Person person() {
         return new Person("Ndlazi", 17, address());
     }
@@ -29,6 +31,7 @@ public class HelloWorldConfiguration {
     }
 
     @Bean(name = "address2")
+    @Primary
     public Address address() {
         return new Address("1 HyperLoop Road", "Ares Haven");
     }
