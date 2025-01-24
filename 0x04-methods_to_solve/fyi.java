@@ -4,7 +4,7 @@ public class fyi {
         Scanner sc = new Scanner(System.in);
         String number = sc.next();
         byte count = 0;
-        for (short i =0; i<number.length(); i++) {
+        for (short i =0; i<3; i++) {
             if (number.charAt(i) == '5') count++;
         }
         if (count >= 3) System.out.println("1");
