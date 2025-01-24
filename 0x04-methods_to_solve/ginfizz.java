@@ -1,5 +1,14 @@
 import java.util.Scanner;
 
+/**
+ * Input
+ * The number N, of Gin Fizzes you want to prepare, where 1 <= N <= 10.
+ * Output
+ * Print the total ingredients you need for
+ * Gin Fizzes, in the order given by the recipe, as shown in the sample outputs.
+ * Liquid amounts are given in millilitres.
+ */
+
 public class ginfizz {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
