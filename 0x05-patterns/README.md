@@ -1,4 +1,4 @@
-# Methods to Solve
+# Patterns
 This repository is used for practicing various programming concepts and techniques. It contains a collection of small projects and exercises aimed at improving coding skills.
 
 ## Contents
