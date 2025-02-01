@@ -16,6 +16,14 @@ public class laptopsticker {
         int ws = sc.nextInt();
         int hs = sc.nextInt();
         
-        System.out.println( (wc >= ws && hc >= hs) ? "1" : "0");
+        int requiredWidth = ws + 2; 
+        int requiredHeight = hs + 2;
+
+        if (wc >= requiredWidth && hc >= requiredHeight) {
+            System.out.println(1);
+        } else {
+            System.out.println(0);
+        }
+        sc.close();
     }
 }
