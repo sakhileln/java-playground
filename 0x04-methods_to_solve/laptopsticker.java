@@ -16,6 +16,6 @@ public class laptopsticker {
         int ws = sc.nextInt();
         int hs = sc.nextInt();
         
-        System.out.println( (wc == hc && ws == hs) ? "1" : "0");
+        System.out.println( (wc >= ws && hc >= hs) ? "1" : "0");
     }
 }
