@@ -11,10 +11,10 @@ import java.util.Scanner;
 public class laptopsticker {
     public static void main(String[]args) {
         Scanner sc = new Scanner(System.in);
-        int wc = sc.nextInt();
-        int hc = sc.nextInt();
-        int ws = sc.nextInt();
-        int hs = sc.nextInt();
+        int wc = sc.nextInt(); // Laptop Width
+        int hc = sc.nextInt() // Laptop height
+        int ws = sc.nextInt(); // Sticker width 
+        int hs = sc.nextInt(); // sticker Heightc
         
         int requiredWidth = ws + 2; 
         int requiredHeight = hs + 2;
