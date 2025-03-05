@@ -1,13 +1,15 @@
 package sakhile;
 
 public class Account {
-
+	
+	// Fields
 	private int accountNumber;
 	private double balance;
 	private String name;
 	private String email;
 	private String phoneNumber;
-
+	
+	// Constructor
 	public Account(int accountNumber, double balance, String name, String email, String phoneNumber) {
 		this.accountNumber = accountNumber;
 		this.balance = balance;
@@ -16,6 +18,21 @@ public class Account {
 		this.phoneNumber = phoneNumber;
 	}
 
+	// Methods
+	public void depositFunds(double funds) {
+		System.out.println("Depositing... R" + funds);
+		this.balance += funds;
+	}
+	public void withdrawFunds(double funds) {
+		if (funds < this.balance) {
+			System.out.println("Withdrawing: R" + funds);
+			this.balance -= funds;
+		} else {
+			System.out.println("Insufficient funds.");
+		}
+	}
+
+	// Getters and setters
 	public void setAccountNumber(int accountNumber) {
 		this.accountNumber = accountNumber;
 	}
@@ -50,18 +67,4 @@ public class Account {
 	public String getPhoneNumber() {
 		return this.phoneNumber;
 	}
-
-	public void depositFunds(double funds) {
-		System.out.println("Depositing... R" + funds);
-		this.balance += funds;
-	}
-	public void withdrawFunds(double funds) {
-		if (funds < this.balance) {
-			System.out.println("Withdrawing: R" + funds);
-			this.balance -= funds;
-		} else {
-			System.out.println("Insufficient funds.");
-		}
-	}
-
 }
