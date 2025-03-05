@@ -12,7 +12,7 @@ public class Main {
     acc1.withdrawFunds(4.1);
     System.out.println("Current balance: R" + acc1.getBalance());
     System.out.println(acc1.getName() + " email: " + acc1.getEmail() + " Current balance is: R" + acc1.getBalance());
-  
+    System.out.println(acc1.toString());
   }
 
 }
