@@ -10,7 +10,13 @@ public class Account {
 	private String phoneNumber;
 	
 	// Constructor
+	public Account {
+		this(123456789, 1.5, "skywalker-default", "skywalker@deathstar.xyz", "888-782-244");
+		System.out.println("Empty constructor was called");
+	}
+
 	public Account(int accountNumber, double balance, String name, String email, String phoneNumber) {
+		System.out.println("Constructor with parameters was called");
 		this.accountNumber = accountNumber;
 		this.balance = balance;
 		this.name = name;
