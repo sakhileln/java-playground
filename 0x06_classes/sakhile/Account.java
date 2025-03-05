@@ -24,7 +24,7 @@ public class Account {
 		this.balance += funds;
 	}
 	public void withdrawFunds(double funds) {
-		if (funds < this.balance) {
+		if ((funds < this.balance) && ((this.balance - funds) > 0)) {
 			System.out.println("Withdrawing: R" + funds);
 			this.balance -= funds;
 		} else {
