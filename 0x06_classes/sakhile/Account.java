@@ -10,7 +10,7 @@ public class Account {
 	private String phoneNumber;
 	
 	// Constructor
-	public Account {
+	public Account() {
 		this(123456789, 1.5, "skywalker-default", "skywalker@deathstar.xyz", "888-782-244");
 		System.out.println("Empty constructor was called");
 	}
