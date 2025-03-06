@@ -8,5 +8,8 @@ public class Test {
 		Account acc5 = new Account();	
 		System.out.println(acc5.getName());
 
+		Account acc8 = new Account("sakhi@apple.com", "234-654-888");
+		System.out.println(acc8.getBalance());
+
 	}
 }
