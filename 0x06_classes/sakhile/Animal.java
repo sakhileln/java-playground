@@ -15,7 +15,15 @@ public class Animal {
 		this.size = size;
 		this.weight = weight;
 	}
-	
+
+	// Methods
+	public void move() {
+		System.out.println("Animal.move() called");
+	}
+	public void eat() {
+		System.out.println("Animal.eat() called");
+	}
+
 	// Getters and setters
 	public void setName(String name) {
 		this.name = name;
