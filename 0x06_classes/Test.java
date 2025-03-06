@@ -20,8 +20,11 @@ public class Test {
 		*/
 
 
-		Dog dog1 = new Dog("bobby", 1, 8, 25);
+		Dog dog1 = new Dog("bobby", 8, 25, 2, 16, "long silky");
 		System.out.println(dog1.getName());
+		System.out.println(dog1.getCoat());
+		dog1.eat();
+		dog1.move();
 
 	}
 }
