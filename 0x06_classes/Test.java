@@ -1,6 +1,7 @@
 import sakhile.Account;
 import sakhile.VipCustomer;
 import sakhile.Dog;
+import sakhile.GermanShepherd;
 
 public class Test {
 	public static void main(String[] args) {
@@ -25,6 +26,9 @@ public class Test {
 		System.out.println(dog1.getCoat());
 		dog1.eat();
 		dog1.move();
+
+		GermanShepherd germanShep = new GermanShepherd("Basco", 4, 16, 21);
+		germanShep.bark();
 
 	}
 }
