@@ -27,6 +27,7 @@ public class Test {
 		dog1.eat();
 		dog1.move();
 
+		// German Shepherd Tests
 		GermanShepherd germanShep = new GermanShepherd("Basco", 4, 16, 21);
 		germanShep.bark();
 		System.out.println(germanShep.getName() + " is a German Sherpherd with "  + germanShep.getCoat() + " coat");
