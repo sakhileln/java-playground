@@ -20,7 +20,7 @@ public class Test {
 		System.out.println(cust1.getEmail());
 		
 
-
+		// Dog tests
 		Dog dog1 = new Dog("bobby", 8, 25, 2, 16, "long silky");
 		System.out.println(dog1.getName());
 		System.out.println(dog1.getCoat());
