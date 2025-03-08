@@ -1,12 +1,13 @@
 package sakhile;
 
 public class GermanShepherd extends Dog {
+	private String bites;
 
-	// Constructor
+	/* Constructor */
 	public GermanShepherd(String name, int size, int weight, int teeth) {
 		super(name, size, weight, 2, teeth, "silky");
 	}
-	// Methods
+	/* Methods */
 	public void bark() {
 		System.out.println("woof woof woof!");
 	}
