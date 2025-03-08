@@ -14,7 +14,7 @@ public class Test {
 		Account acc8 = new Account("sakhi@apple.com", "234-654-888");
 		System.out.println(acc8.getBalance());
 
-
+		// VipCustomer tests
 		VipCustomer cust1 = new VipCustomer();
 		System.out.println(cust1.getName());
 		System.out.println(cust1.getEmail());
