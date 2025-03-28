@@ -2,6 +2,7 @@ import java.util.Arrays;
 
 public class Match {
 	public static void main(String[] args) {
+		
 		String[] sArray = {"Ze", "Zethe", "Sakhile", "Jane"};
 		Arrays.sort(sArray);
 		System.out.println(Arrays.toString(sArray));
