@@ -12,6 +12,7 @@ public class Minimum {
 	}
 
 	private static int[] readIntergers() {
+		
 		Scanner sc = new Scanner(System.in);
 
 		System.out.print("Enter comma separated numbers: ");
