@@ -3,6 +3,7 @@ import java.util.Arrays;
 
 public class Minimum {
 	public static void main(String[] args) {
+		
 		int[] numbers = readIntergers();
 		int min =  findMin(numbers);
 
