@@ -3,6 +3,7 @@ import java.util.Random;
 
 public class Sorting {
 	public static void main(String[] args) {
+		
 		int[] randArray = getRandomArray(10);
 
 		System.out.println(Arrays.toString(randArray));
