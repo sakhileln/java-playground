@@ -14,6 +14,7 @@ public class Sorting {
 	}
 
 	public static int[] getRandomArray(int len) {
+		
 		int[] newArray = new int[len];
 		Random random = new Random();
 		for (int i = 0; i < len; i++) {
