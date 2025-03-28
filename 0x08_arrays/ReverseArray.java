@@ -41,6 +41,7 @@ public class ReverseArray {
 	}
 
 	private static int[] reverse2(int[] array) {
+		
 		int[] numbers = Arrays.copyOf(array,array.length);
 		int maxIndex = array.length - 1;
 		int halfLength = array.length / 2;
