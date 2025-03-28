@@ -25,6 +25,7 @@ public class Sorting {
 	}
 
 	public static int[] reverseArray(int[] arr) {
+		
 		int[] sortedArr = Arrays.copyOf(arr, arr.length);
 
 		boolean flag = true;
