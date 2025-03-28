@@ -3,6 +3,7 @@ import java.util.Arrays;
 
 public class ReverseArray {
 	public static void main(String[] args) {
+		
 		int[] numbers = readIntergers();
 		int[] reverseNumbers =  reverse(numbers);
 
