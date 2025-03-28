@@ -29,6 +29,7 @@ public class Minimum {
 	}
 
 	private static int findMin(int[] numbers) {
+		
 		int minimum = numbers[0];
 		for (int val : numbers) {
 			if (val < minimum) {
