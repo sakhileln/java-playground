@@ -33,7 +33,7 @@ public class ArrayLists {
 		items.add(0, new GroceryItem("Eggs", "PRODUCE", 30));
 		items.set(1, new GroceryItem("Milk"));
 		items.remove(3);
-		// items.add("Youghurt");
+		// items.add("Youghurt"); // Runtime Error
 		System.out.println(items);
 	}
 }
