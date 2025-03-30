@@ -16,8 +16,7 @@ public class MoreLists {
 		groceries.add("yoghurt");
 		System.out.println(groceries);
 
-		ArrayList<String> nextList = new ArrayList<>(
-			List.of("pickles", "cheese", "mustard"));
+		ArrayList<String> nextList = new ArrayList<>(List.of("pickles", "cheese", "mustard"));
 		System.out.println(nextList);
 		groceries.addAll(nextList);
 		System.out.println(groceries);
