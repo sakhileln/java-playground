@@ -12,6 +12,7 @@ record GroceryItem(String name, String type, int count) {
 	}
 }
 
+
 public class ArrayLists {
 	public static void main(String[] args) {
 		
