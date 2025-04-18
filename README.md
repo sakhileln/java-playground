@@ -1,5 +1,4 @@
 # ☕ Java Playground
-
 A repository for experimenting with Java concepts, frameworks, and tools. Perfect for honing your Java skills and testing out new ideas.
 
 # ✨ Features
