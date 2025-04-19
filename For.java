@@ -13,5 +13,29 @@ public class For {
 			System.out.println(n);
 		}
 
+
+		// What happens?
+		labelBlock: for (int i = 0; i < 3; i++) {
+			System.out.println(i++);
+			++i;
+		}
+
+
+		outer: for(var x = 0; x < 5; System.out.println(), x++) {
+			for (var y = 0; y < 5; y++) {
+				if (y == x) continue outer;
+				System.out.printf("x=%d, y=%d :", x, y);
+			}
+		}
+
+
+
+		skip: {
+			if (Math.random() > 0.5) break skip;
+			System.out.println("that was a small number");
+		}
+		System.out.println("finished");
+
+
 	}
 }
