@@ -1,20 +1,13 @@
-import java.util.Scanner;
-
-public class test {
-	private static Scanner scanner = new Scanner(System.in);
-	
+public class Test {
 	public static void main(String[] args) {
-		String someText = """
-						Is
-						this
-						allowed
-						in
-						Java?""";
-
-		switch(Integer.parseInt(scanner.nextLine())) {
-			case 1 -> System.out.println("you called...");
-			case 2 -> System.out.println(someText);
-			default -> System.out.println("default case...");
+		output("Name", "Surname");
+		String[] names = new String[] {"Grade", "WTC_", "Computer"};
+		output(names);
+	}
+	private static void output(String... array) {
+		for (int i=0; i<array.length; i++) {
+			System.out.println(array[i]);
 		}
+
 	}
 }
