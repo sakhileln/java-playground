@@ -36,6 +36,14 @@ public class For {
 		}
 		System.out.println("finished");
 
+		// What happens?
+		outer: for (int i = 0; i < 4; i++) {
+			inner: for (int j = 0; j < 4; j++) {
+				if (i == j) continue outer; /* ??? break, break inner*/
+				System.out.print(i + ", " + j + " - ");
+			}
+		}
+
 
 	}
 }
