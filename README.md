@@ -7,7 +7,6 @@ A repository for experimenting with Java concepts, frameworks, and tools. Perfec
    - 🗂️ Organized directories for easy navigation
 
 ## Contact
-
 - Sakhile III  
 - [LinkedIn Profile](https://www.linkedin.com/in/sakhile-)
 - [GitHub Profile](https://github.com/sakhileln)
