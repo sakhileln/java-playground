@@ -4,7 +4,6 @@ A repository for experimenting with Java concepts, frameworks, and tools. Perfec
    - 💻 Hands-on projects and code snippets
    - 📚 Examples covering core Java and popular frameworks
    - 🗂️ Organized directories for easy navigation
-
 ## Contact
 - Sakhile III  
 - [LinkedIn Profile](https://www.linkedin.com/in/sakhile-)
